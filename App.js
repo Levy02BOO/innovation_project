@@ -1,12 +1,16 @@
 import React from 'react';
-import BasicGrid from './grid.js'
+import './styles.css'; // Import your CSS file
+import Audit from './Audit'; // Import your Audit component
+
+
 class App extends React.Component {
-render() {
-return (
-<div>
-<BasicGrid />
-</div>
-);
+  render() {
+    return (
+      <div className="body">
+        <Audit />
+      </div>
+    );
+  }
 }
-}
+
 export default App;
